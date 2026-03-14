@@ -5,6 +5,7 @@ import { SectionHeader } from "@/components/section-header";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { CTABanner } from "@/components/cta-banner";
 import { LogoCloud } from "@/components/logo-cloud";
+import { assetPath } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Proof",
@@ -84,7 +85,7 @@ export default function ProofPage() {
         {/* Background texture */}
         <div className="absolute inset-0">
           <Image
-            src="/images/unsplash/refined/refined-04-black-marble-amber.jpg"
+            src={assetPath("/images/unsplash/refined/refined-04-black-marble-amber.jpg")}
             alt=""
             fill
             className="object-cover opacity-[0.07]"
@@ -229,7 +230,7 @@ export default function ProofPage() {
         {/* Background with Ken Burns */}
         <div className="absolute inset-[-10%] animate-[kenBurns_40s_ease-in-out_infinite_alternate]">
           <Image
-            src="/images/unsplash/refined/refined-01-warm-sconce.jpg"
+            src={assetPath("/images/unsplash/refined/refined-01-warm-sconce.jpg")}
             alt=""
             fill
             className="object-cover opacity-[0.12]"

@@ -4,6 +4,7 @@ import { WaveHero } from "@/components/wave-hero";
 import { SectionHeader } from "@/components/section-header";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { CTABanner } from "@/components/cta-banner";
+import { assetPath } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "About",
@@ -92,7 +93,7 @@ export default function AboutPage() {
                 <div className="absolute -inset-px rounded-lg bg-gradient-to-br from-[rgba(220,168,14,0.15)] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm" />
                 <div className="relative overflow-hidden rounded-lg border border-[rgba(220,168,14,0.08)] group-hover:border-[rgba(220,168,14,0.2)] transition-colors duration-500">
                   <Image
-                    src="/images/unsplash/refined/refined-02-gold-vase-stilllife.jpg"
+                    src={assetPath("/images/unsplash/refined/refined-02-gold-vase-stilllife.jpg")}
                     alt="Gold still life — precision and craft"
                     width={640}
                     height={480}

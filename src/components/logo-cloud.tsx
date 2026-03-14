@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetPath } from "@/lib/utils";
 
 const logos = [
   { src: "/images/logos-gold/Ikea-logo.png", alt: "IKEA" },
@@ -33,7 +34,7 @@ export function LogoCloud() {
         {doubled.map((logo, i) => (
           <Image
             key={`${logo.alt}-${i}`}
-            src={logo.src}
+            src={assetPath(logo.src)}
             alt={logo.alt}
             width={200}
             height={108}

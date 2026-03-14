@@ -5,6 +5,7 @@ import { ScrollReveal } from "@/components/scroll-reveal";
 import { CTABanner } from "@/components/cta-banner";
 import { GlowCard } from "@/components/glow-card";
 import { PremiumTestimonials } from "@/components/ui/premium-testimonials";
+import { assetPath } from "@/lib/utils";
 
 /* ── Pain-point card data ─────────────────────────────────── */
 const painPoints = [
@@ -96,7 +97,7 @@ export default function HomePage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
                 <img
-                  src="/images/unsplash/teams/team-03-whiteboard-planning.jpg"
+                  src={assetPath("/images/unsplash/teams/team-03-whiteboard-planning.jpg")}
                   alt="Team planning session with sticky notes"
                   className="w-full h-full object-cover"
                 />
@@ -161,7 +162,7 @@ export default function HomePage() {
         {/* Background texture */}
         <div className="absolute inset-0 pointer-events-none" style={{ mixBlendMode: "luminosity" }}>
           <img
-            src="/images/unsplash/refined/refined-04-black-marble-amber.jpg"
+            src={assetPath("/images/unsplash/refined/refined-04-black-marble-amber.jpg")}
             alt=""
             className="w-full h-full object-cover opacity-[0.07]"
           />
@@ -329,7 +330,7 @@ export default function HomePage() {
             <ScrollReveal>
               <div className="relative rounded-xl overflow-hidden aspect-[3/2]">
                 <img
-                  src="/images/unsplash/teams/team-06-workshop-sticky-notes.jpg"
+                  src={assetPath("/images/unsplash/teams/team-06-workshop-sticky-notes.jpg")}
                   alt="Workshop session with team"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
@@ -338,7 +339,7 @@ export default function HomePage() {
             <ScrollReveal delay={150}>
               <div className="relative rounded-xl overflow-hidden aspect-[3/2]">
                 <img
-                  src="/images/unsplash/teams/team-01-meeting-discussion.jpg"
+                  src={assetPath("/images/unsplash/teams/team-01-meeting-discussion.jpg")}
                   alt="Team celebrating project success"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
@@ -353,7 +354,7 @@ export default function HomePage() {
         {/* Background image with Ken Burns */}
         <div className="absolute inset-[-10%] animate-[kenBurns_40s_ease-in-out_infinite_alternate]">
           <img
-            src="/images/unsplash/refined/refined-01-warm-sconce.jpg"
+            src={assetPath("/images/unsplash/refined/refined-01-warm-sconce.jpg")}
             alt=""
             className="w-full h-full object-cover"
           />

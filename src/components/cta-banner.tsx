@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRef, useCallback } from "react";
 import { ScrollReveal } from "./scroll-reveal";
+import { assetPath } from "@/lib/utils";
 
 interface CTABannerProps {
   eyebrow?: string;
@@ -46,7 +47,7 @@ export function CTABanner({
           {/* Background image with Ken Burns */}
           <div className="absolute inset-[-10%] animate-[kenBurns_40s_ease-in-out_infinite_alternate]">
             <img
-              src="/images/unsplash/refined/refined-03-gold-ribbed-lines.jpg"
+              src={assetPath("/images/unsplash/refined/refined-03-gold-ribbed-lines.jpg")}
               alt=""
               className="w-full h-full object-cover opacity-[0.08]"
             />
