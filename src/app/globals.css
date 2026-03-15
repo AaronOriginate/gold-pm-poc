@@ -201,8 +201,8 @@ body::after {
   --glow-size: 350px;
 }
 
-/* ── Forced-dark sections (stay dark in light mode) ────── */
-.section-dark {
+/* ── Dark-accent sections (follow theme in light mode) ── */
+[data-theme="dark"] .section-dark {
   --bg-base: #0E121A;
   --bg-recessed: #131720;
   --bg-card: #161B27;
@@ -217,6 +217,16 @@ body::after {
   --gold-glow-md: 0 0 32px rgba(220,168,14,0.3);
   --border-subtle: rgba(220,168,14,0.06);
   --border-accent: rgba(220,168,14,0.08);
+}
+
+/* ── Quote section theme handling ────────────────────── */
+.quote-bg-image { opacity: 1; }
+.quote-overlay {
+  background: radial-gradient(ellipse at 50% 50%, rgba(14,18,26,0.75) 0%, rgba(14,18,26,0.92) 100%);
+}
+[data-theme="light"] .quote-bg-image { opacity: 0.08; }
+[data-theme="light"] .quote-overlay {
+  background: radial-gradient(ellipse at 50% 50%, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.85) 100%);
 }
 
 /* ── Accessibility: Font Size ──────────────────────────── */

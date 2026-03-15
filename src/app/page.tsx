@@ -350,18 +350,18 @@ export default function HomePage() {
       </section>
 
       {/* ────────────────── 6. Testimonial ────────────────── */}
-      <section className="relative py-[140px] overflow-hidden">
+      <section className="quote-section relative py-[140px] overflow-hidden bg-[var(--bg-recessed)]">
         {/* Background image with Ken Burns */}
         <div className="absolute inset-[-10%] animate-[kenBurns_40s_ease-in-out_infinite_alternate]">
           <img
             src={assetPath("/images/unsplash/refined/refined-01-warm-sconce.jpg")}
             alt=""
-            className="w-full h-full object-cover"
+            className="quote-bg-image w-full h-full object-cover"
           />
         </div>
 
-        {/* Dark radial overlay */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(14,18,26,0.75)_0%,rgba(14,18,26,0.92)_100%)]" />
+        {/* Overlay */}
+        <div className="quote-overlay absolute inset-0" />
 
         {/* Top / bottom borders */}
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(220,168,14,0.12)] to-transparent" />
@@ -378,14 +378,14 @@ export default function HomePage() {
 
           <ScrollReveal>
             <blockquote>
-              <p className="font-[family-name:var(--font-cabin)] text-[clamp(20px,3vw,28px)] text-white leading-[1.6] italic mb-8">
+              <p className="font-[family-name:var(--font-cabin)] text-[clamp(20px,3vw,28px)] text-[var(--text-primary)] leading-[1.6] italic mb-8">
                 If you need us permanently, we haven&apos;t done our job. That&apos;s not a tagline&nbsp;&mdash; it&apos;s how we measure success.
               </p>
               <footer className="font-[family-name:var(--font-dm-sans)]">
                 <span className="font-bold text-sm text-[var(--gold)] tracking-[0.05em] uppercase">
                   Michael Gold
                 </span>
-                <span className="block text-xs text-[rgba(255,255,255,0.6)] mt-1 tracking-[0.05em]">
+                <span className="block text-xs text-[var(--text-muted)] mt-1 tracking-[0.05em]">
                   Founder
                 </span>
               </footer>
