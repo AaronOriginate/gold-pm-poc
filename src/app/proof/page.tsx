@@ -81,18 +81,19 @@ export default function ProofPage() {
       />
 
       {/* ── 2. Headline Metrics ───────────────────────────────────── */}
-      <section className="relative py-[100px] overflow-hidden">
+      <section className="section-accent relative py-[100px] overflow-hidden">
         {/* Background texture */}
         <div className="absolute inset-0">
           <Image
             src={assetPath("/images/unsplash/refined/refined-04-black-marble-amber.jpg")}
             alt=""
             fill
-            className="object-cover opacity-[0.07]"
+            className="object-cover"
             priority
           />
         </div>
-        <div className="absolute inset-0 bg-[var(--bg-base)] opacity-[0.93]" />
+        {/* Dark overlay for contrast */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(14,18,26,0.78)_0%,rgba(14,18,26,0.93)_100%)]" />
 
         {/* Top / bottom accent lines */}
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(220,168,14,0.15)] to-transparent" />
@@ -226,17 +227,18 @@ export default function ProofPage() {
       </section>
 
       {/* ── 4. Testimonial ────────────────────────────────────────── */}
-      <section className="relative py-[120px] overflow-hidden">
+      <section className="section-accent relative py-[120px] overflow-hidden">
         {/* Background with Ken Burns */}
         <div className="absolute inset-[-10%] animate-[kenBurns_40s_ease-in-out_infinite_alternate]">
           <Image
             src={assetPath("/images/unsplash/refined/refined-01-warm-sconce.jpg")}
             alt=""
             fill
-            className="object-cover opacity-[0.12]"
+            className="object-cover"
           />
         </div>
-        <div className="absolute inset-0 bg-[var(--bg-base)] opacity-[0.88]" />
+        {/* Dark overlay for contrast */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(14,18,26,0.75)_0%,rgba(14,18,26,0.92)_100%)]" />
 
         {/* Top / bottom accent lines */}
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(220,168,14,0.15)] to-transparent" />

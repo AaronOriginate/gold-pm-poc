@@ -35,7 +35,7 @@ export function CTABanner({
   }, []);
 
   return (
-    <section className="py-[80px] px-8">
+    <section className="section-accent py-[80px] px-8">
       {/* Outer wrapper: the glow border lives here */}
       <div
         ref={cardRef}
@@ -49,9 +49,12 @@ export function CTABanner({
             <img
               src={assetPath("/images/unsplash/refined/refined-03-gold-ribbed-lines.jpg")}
               alt=""
-              className="w-full h-full object-cover opacity-[0.08]"
+              className="w-full h-full object-cover"
             />
           </div>
+
+          {/* Dark overlay for contrast */}
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(14,18,26,0.75)_0%,rgba(14,18,26,0.92)_100%)]" />
 
           {/* Radial glow */}
           <div className="absolute bottom-1/2 left-1/2 -translate-x-1/2 translate-y-1/2 w-[600px] h-[400px] bg-[radial-gradient(ellipse,rgba(220,168,14,0.05)_0%,transparent_70%)] pointer-events-none" />

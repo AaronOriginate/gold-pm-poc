@@ -158,15 +158,18 @@ export default function HomePage() {
       <PremiumTestimonials />
 
       {/* ────────────────── 4. Proof Metrics ────────────────── */}
-      <section className="section-dark relative py-[120px] overflow-hidden bg-[var(--bg-base)]">
+      <section className="section-accent relative py-[120px] overflow-hidden">
         {/* Background texture */}
-        <div className="absolute inset-0 pointer-events-none" style={{ mixBlendMode: "luminosity" }}>
+        <div className="absolute inset-0 pointer-events-none">
           <img
             src={assetPath("/images/unsplash/refined/refined-04-black-marble-amber.jpg")}
             alt=""
-            className="w-full h-full object-cover opacity-[0.07]"
+            className="w-full h-full object-cover"
           />
         </div>
+
+        {/* Dark overlay for contrast */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(14,18,26,0.78)_0%,rgba(14,18,26,0.93)_100%)]" />
 
         {/* Top border */}
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(220,168,14,0.12)] to-transparent" />
@@ -350,18 +353,18 @@ export default function HomePage() {
       </section>
 
       {/* ────────────────── 6. Testimonial ────────────────── */}
-      <section className="quote-section relative py-[140px] overflow-hidden bg-[var(--bg-recessed)]">
+      <section className="section-accent relative py-[140px] overflow-hidden">
         {/* Background image with Ken Burns */}
         <div className="absolute inset-[-10%] animate-[kenBurns_40s_ease-in-out_infinite_alternate]">
           <img
             src={assetPath("/images/unsplash/refined/refined-01-warm-sconce.jpg")}
             alt=""
-            className="quote-bg-image w-full h-full object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
 
-        {/* Overlay */}
-        <div className="quote-overlay absolute inset-0" />
+        {/* Dark overlay for contrast */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(14,18,26,0.75)_0%,rgba(14,18,26,0.92)_100%)]" />
 
         {/* Top / bottom borders */}
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(220,168,14,0.12)] to-transparent" />

@@ -38,12 +38,12 @@
   --gold-bright: #C49A0C;
   --gold-dark: #825F06;
   --gold-muted: #A88209;
-  --bg-base: #FFFFFF;
-  --bg-recessed: #F8F7F6;
-  --bg-card: #F3F2F0;
-  --bg-elevated: #EDECEA;
-  --bg-muted: #E5E4E2;
-  --bg-accent: #DBD9D6;
+  --bg-base: #FAF8F5;
+  --bg-recessed: #F5F2EE;
+  --bg-card: #F0EDE8;
+  --bg-elevated: #EAE7E2;
+  --bg-muted: #E2DFD9;
+  --bg-accent: #D8D5CF;
   --text-primary: #1A1A1A;
   --text-body: #3D3D3D;
   --text-muted: #6B6B6B;
@@ -53,11 +53,11 @@
   --gold-glow-lg: 0 0 48px rgba(220,168,14,0.25), 0 0 96px rgba(220,168,14,0.1);
   --border-subtle: rgba(0,0,0,0.06);
   --border-accent: rgba(0,0,0,0.08);
-  --nav-bg: rgba(255,255,255,0.85);
-  --overlay-dark: rgba(255,255,255,0.85);
-  --hero-overlay-inner: rgba(255,255,255,0.15);
-  --hero-overlay-mid: rgba(255,255,255,0.5);
-  --hero-overlay-outer: rgba(255,255,255,0.85);
+  --nav-bg: rgba(250,248,245,0.85);
+  --overlay-dark: rgba(250,248,245,0.85);
+  --hero-overlay-inner: rgba(250,248,245,0.15);
+  --hero-overlay-mid: rgba(250,248,245,0.5);
+  --hero-overlay-outer: rgba(250,248,245,0.85);
   --noise-opacity: 0.15;
 }
 
@@ -219,15 +219,24 @@ body::after {
   --border-accent: rgba(220,168,14,0.08);
 }
 
-/* ── Quote section theme handling ────────────────────── */
-.quote-bg-image { opacity: 1; }
-.quote-overlay {
-  background: radial-gradient(ellipse at 50% 50%, rgba(14,18,26,0.75) 0%, rgba(14,18,26,0.92) 100%);
+/* ── Always-dark accent sections (image-backed) ─────── */
+.section-accent {
+  --bg-base: #0E121A;
+  --bg-recessed: #131720;
+  --bg-card: #161B27;
+  --bg-elevated: #1A2030;
+  --bg-muted: #222A39;
+  --bg-accent: #262E3F;
+  --text-primary: #FFFFFF;
+  --text-body: #D8DBE2;
+  --text-muted: #8B919C;
+  --text-subtle: #444D5C;
+  --gold-glow-sm: 0 0 20px rgba(220,168,14,0.2);
+  --gold-glow-md: 0 0 32px rgba(220,168,14,0.3);
+  --border-subtle: rgba(220,168,14,0.06);
+  --border-accent: rgba(220,168,14,0.08);
 }
-[data-theme="light"] .quote-bg-image { opacity: 0.08; }
-[data-theme="light"] .quote-overlay {
-  background: radial-gradient(ellipse at 50% 50%, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.85) 100%);
-}
+
 
 /* ── Accessibility: Font Size ──────────────────────────── */
 html.font-size-small { font-size: 14px; }
