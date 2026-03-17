@@ -7,6 +7,12 @@ import { LogoCloud } from "@/components/logo-cloud";
 
 export const metadata: Metadata = {
   title: "Who We Help",
+  description: "Gold PM works with PE operating partners, COOs at scale-ups, and Series A-C founders. If projects ship late, delivery is breaking under growth, or your PMO hire hasn't changed anything — we fix that.",
+  openGraph: {
+    title: "Who We Help — PE Operating Partners, COOs & Founders",
+    description: "Fractional delivery leadership for PE-backed scale-ups and Series A-C companies with 50-500 employees scaling beyond informal project management.",
+  },
+  alternates: { canonical: "https://aaronoriginate.github.io/gold-pm-poc/who-we-help" },
 };
 
 /* ------------------------------------------------------------------ */

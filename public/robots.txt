@@ -1,0 +1,58 @@
+# Default rule - allow all bots
+User-agent: *
+Allow: /
+
+# OpenAI (Powers ChatGPT Search and training)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google AI (Powers Gemini and AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic (Powers Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Apple (Powers Siri and Apple Intelligence)
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl (Used by many smaller AI models)
+User-agent: CCBot
+Allow: /
+
+# Traditional search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# ByteDance / Bytespider
+User-agent: Bytespider
+Allow: /
+
+# Sitemap reference
+Sitemap: https://aaronoriginate.github.io/gold-pm-poc/sitemap.xml

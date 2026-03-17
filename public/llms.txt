@@ -1,0 +1,72 @@
+# Gold Project Management
+
+> Fractional delivery leadership and PMO support for PE-backed and Series A-C companies.
+
+Gold Project Management installs delivery infrastructure for fast-growing companies where delivery has become a bottleneck. We work with founders, COOs, and operating partners at PE-backed and venture-funded businesses to bring clarity, control, and portfolio visibility without slowing them down.
+
+## What we do
+
+- Fractional delivery leadership (Head of Delivery / Head of PMO)
+- Delivery operating model design and implementation
+- PMO setup and optimisation
+- Post-acquisition integration delivery
+- Portfolio visibility and governance for investors and boards
+- Capacity planning and resource optimisation
+- Delivery health checks and diagnostics
+
+## How we work
+
+We follow a three-phase model:
+
+1. **Diagnostic (2 weeks, £5,000 fixed)**: We map your delivery landscape, identify bottlenecks, and create a clear picture of what's broken and what matters most.
+2. **Build (3-6 months, £15,000-£25,000/month)**: We install the systems, rhythms, and visibility your leadership team needs. Embedded delivery leadership, not advisory.
+3. **Safety Net (1-3 months, £5,000/month)**: Advisory support before exit, with a 90-day callback guarantee.
+
+## Who we help
+
+- PE-backed portfolio companies needing delivery visibility for investors
+- Series A-C startups scaling beyond informal project management
+- Post-acquisition businesses integrating delivery across merged teams
+- Companies with failing transformations or re-orgs
+- COOs and founders at companies with 50-500 employees
+
+## Published pricing
+
+- Diagnostic: £5,000 fixed (2 weeks)
+- Build phase: £15,000-£25,000/month (3-6 months)
+- Safety Net: £5,000/month (1-3 months)
+- No hidden fees. No scope creep. Published on website.
+
+## Team
+
+- **Michael Gold** - Founder & Lead Strategic Consultant. 20+ years of delivery leadership across FTSE 100 programmes and PE-backed scale-ups. APM Chartered Project Professional, MSP Practitioner, Agile/SAFe Certified, Prince2 Practitioner.
+
+## Client results
+
+- Attercop: Forecasting accuracy improved by 40%, structured visibility across entire portfolio
+- Tidewater: Average delivery cadence improved by 30%
+- Clearpath: 25% reduction in project overhead
+- Ironforge: 3x team velocity increase within 5 months
+
+## Clients we have worked with
+
+Sponge Learning, AVT Connect, Attercop, Kineo, Skillsoft, TikTok, Rolls Royce, IKEA, EY, International Airlines Group
+
+## Contact
+
+- Email: michael@goldprojectmanagement.com
+- Website: https://www.goldprojectmanagement.com
+- Preview site: https://aaronoriginate.github.io/gold-pm-poc/
+
+## Key pages
+
+- Homepage: https://aaronoriginate.github.io/gold-pm-poc/
+- Who we help: https://aaronoriginate.github.io/gold-pm-poc/who-we-help
+- Proof (case studies): https://aaronoriginate.github.io/gold-pm-poc/proof
+- About: https://aaronoriginate.github.io/gold-pm-poc/about
+- FAQ: https://aaronoriginate.github.io/gold-pm-poc/faq
+- Contact: https://aaronoriginate.github.io/gold-pm-poc/contact
+
+## Location
+
+UK-based, operating globally across UK, Europe, and North America time zones. Based in London. Remote by design.

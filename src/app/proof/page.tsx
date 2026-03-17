@@ -9,6 +9,12 @@ import { assetPath } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Proof",
+  description: "Case studies and measurable results from Gold Project Management engagements. 40% improved forecasting accuracy, 30% faster delivery cadence, 3x team velocity increase. Every engagement ends with measurable improvement.",
+  openGraph: {
+    title: "Proof — Gold Project Management Case Studies & Results",
+    description: "40% improved forecasting accuracy. 30% faster delivery. 3x velocity increase. Numbers, not promises.",
+  },
+  alternates: { canonical: "https://aaronoriginate.github.io/gold-pm-poc/proof" },
 };
 
 /* ------------------------------------------------------------------ */

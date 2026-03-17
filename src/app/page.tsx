@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { WaveHero } from "@/components/wave-hero";
 import { LogoCloud } from "@/components/logo-cloud";
 import { SectionHeader } from "@/components/section-header";
@@ -6,6 +7,14 @@ import { CTABanner } from "@/components/cta-banner";
 import { GlowCard } from "@/components/glow-card";
 import { PremiumTestimonials } from "@/components/ui/premium-testimonials";
 import { assetPath } from "@/lib/utils";
+
+export const metadata: Metadata = {
+  description: "Fractional delivery leadership and PMO support for PE-backed and Series A-C companies. We install delivery infrastructure, prove it works, and leave. Published pricing from £5,000.",
+  openGraph: {
+    title: "Gold Project Management — Fractional Delivery Leadership",
+    description: "Embedded delivery leadership for PE-backed scale-ups. Published pricing. Proven results. No dependency.",
+  },
+};
 
 /* ── Pain-point card data ─────────────────────────────────── */
 const painPoints = [

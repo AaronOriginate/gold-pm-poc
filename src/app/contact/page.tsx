@@ -6,6 +6,12 @@ import { ContactForm } from "./contact-form";
 
 export const metadata: Metadata = {
   title: "Contact",
+  description: "Book a delivery diagnostic with Gold Project Management. £5,000 fixed, two weeks. You'll know exactly what's broken and what to do about it. Based in London, working across UK and Europe.",
+  openGraph: {
+    title: "Contact Gold Project Management — Book a Diagnostic",
+    description: "Book a diagnostic, ask a question, or start the conversation. £5,000 fixed. Two weeks. No commitment required.",
+  },
+  alternates: { canonical: "https://aaronoriginate.github.io/gold-pm-poc/contact" },
 };
 
 const faqs = [

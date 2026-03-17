@@ -8,6 +8,12 @@ import { assetPath } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "About",
+  description: "Gold Project Management was founded by Michael Gold after two decades leading delivery at scale. We fix delivery infrastructure problems — not as permanent staff, but as embedded operators who install systems, prove they work, and leave.",
+  openGraph: {
+    title: "About Gold Project Management — The Anti-Consultancy Consultancy",
+    description: "Founded by Michael Gold. Senior operators with 15+ years of delivery leadership experience. APM Chartered, MSP Practitioner, Agile/SAFe Certified.",
+  },
+  alternates: { canonical: "https://aaronoriginate.github.io/gold-pm-poc/about" },
 };
 
 const values = [
